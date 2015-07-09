@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+steve_mail: 
+sender_id: 1
+reciever_id: 2
+content: "Hello Max, I'd like to talk to you about the furniture. How much are you offering? Thanks, Steve"
+#
+maxs_mail: 
+sender_id: 2
+reciever_id: 1
+content: "Good morning Steve. How does 5000 sound? Let me know if that is too low. Regards, Max"
