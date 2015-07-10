@@ -5,11 +5,17 @@
 # below each fixture, per the syntax in the comments below
 #
 steve_mail: 
-sender_id: 1
-reciever_id: 2
-content: "Hello Max, I'd like to talk to you about the furniture. How much are you offering? Thanks, Steve"
+  # sender_id: 1
+  # reciever_id: 2
+  sender: steve
+  reciever: max
+  title: "Furniture"
+  content: "Hello Max, I'd like to talk to you about the furniture. How much are you offering? Thanks, Steve"
 #
-maxs_mail: 
-sender_id: 2
-reciever_id: 1
-content: "Good morning Steve. How does 5000 sound? Let me know if that is too low. Regards, Max"
+max_mail: 
+  # sender_id: 2
+  # reciever_id: 1
+  sender: max
+  reciever: steve
+  title: "RE: Furniture"
+  content: "Good morning Steve. How does 5000 sound? Let me know if that is too low. Regards, Max"

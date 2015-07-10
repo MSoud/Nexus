@@ -6,8 +6,8 @@ class AccountTest < ActiveSupport::TestCase
   # end
   def setup
     @user = Account.new(name:"Michael", email:"MJackson@mail.com")
-    @steve = accounts(:first)
-    @max = accounts(:second)
+    @steve = accounts(:steve)
+    @max = accounts(:max)
   end
   
   test "check if user is valid" do
